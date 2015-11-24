@@ -82,20 +82,21 @@ body{
 	width:960px;
 
 }
+
 #navbarcontainer{
 	height:140px;
 	width:960px;
-	backgorud-color:blue;
+	background-color:blue;
 }
 
 #navbar{
 	height:43px;
 	width:960px;
-	backgourd-color:green;
-
+	background-color:green;
+	margin-top: 27px;
 }
 
-#contaiber{
+#container{
 	height:292px;
 	width:593px;
 	margin-left:auto;
@@ -103,7 +104,7 @@ body{
 	background-color:red;
 }
 
-#bottomconrainer{
+#bottomcontainer{
 	height:293px;
 	width:960px;
 	background-color:yellow;
