@@ -77,12 +77,42 @@ textarea {
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+body{
+	height:768px;
+	width:960px;
 
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+}
+#navbarcontainer{
+	height:140px;
+	width:960px;
+	backgorud-color:blue;
+}
+
+#navbar{
+	height:43px;
+	width:960px;
+	backgourd-color:green;
+
+}
+
+#contaiber{
+	height:292px;
+	width:593px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:red;
+}
+
+#bottomconrainer{
+	height:293px;
+	width:960px;
+	background-color:yellow;
+}
+
+footer{
+	height:43px;
+	width:960px;
+	background-color:blue;
 }
 
 /* ==========================================================================
@@ -102,7 +132,7 @@ li{
 	a{
 	    color:blue; 
 	
-	}
+}
 
 /* ==========================================================================
    Helper classes
