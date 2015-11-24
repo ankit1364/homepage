@@ -110,6 +110,13 @@ body{
 	background-color:yellow;
 }
 
+.box{
+	width:318px;
+	height:293px;
+	float:left;
+	background-color:#623AC2;
+	border:1px solid black;
+}
 footer{
 	height:43px;
 	width:960px;
