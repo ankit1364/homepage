@@ -39,13 +39,12 @@ html {
 }
 
 #navbarcontainer {
-    width : 70%;
-	height : 43px;
+   	height : 43px;
 	border-width : 1px 0px 1px 1px;
 	border-style : solid;
-	float : middle;
+	float : right;
 	margin-top : 50px;
-	background-color : green;
+	background-color : white;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -53,19 +52,19 @@ html {
 #logo{
 	width:40px;
 	height:43px;
+	float:left;
 	border-radius:40px;
 }
 
 #banner{
-	width:593px;
+	width:960px;
 	height:292px;
 }
 
 #menu ul{
-	margin-left:auto;
-	margin-right:auto;
-	width:70%;
+	margin-left:0px;
 	background-color:white;
+	float:right;
 }
 #menu a {
 	text-decoration : none;
@@ -80,7 +79,7 @@ html {
 	font-size : 15px;
 }
 #Container {
-    width : 593px;
+    width : 960px;
 	height : 292px;
 	border-width : 0px 1px 0px 1px;
 	border-style : solid;
@@ -88,6 +87,16 @@ html {
 	margin-left:auto;
 	margin-right:auto;
 }
+img{
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+#btn{
+	float:right;
+	margin-top:-20px;
+	z-index:1;
+	}
 #button{
 	width:318px;
 	height:293px;
@@ -109,6 +118,21 @@ html {
 	float:left;
 	background-color:#623AC2;
 	border:1px solid black;
+}
+#products{
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size:32px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#items{
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size:28px;
+	margin-top:-20px;
+	margin-left:auto;
+	margin-right:auto;
+
 }
 footer{
 	height:43px;
