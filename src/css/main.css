@@ -32,7 +32,7 @@ html {
 
 #header {
     width : 960px;
-	height : 140px;
+	height:43px;
 	border-width : 1px 1px 1px 1px;
 	border-style : solid;
 	background-color : blue;
@@ -43,7 +43,6 @@ html {
 	border-width : 1px 0px 1px 1px;
 	border-style : solid;
 	float : right;
-	margin-top : 50px;
 	background-color : white;
 	margin-left:auto;
 	margin-right:auto;
@@ -83,7 +82,7 @@ html {
 	height : 292px;
 	border-width : 0px 1px 0px 1px;
 	border-style : solid;
-	background-color:red;
+	background-image:url("https://web.njit.edu/~asp82/html5-boilerplate/src/img/homepage-small.jpg");
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -91,11 +90,10 @@ img{
     z-index: -1;
 }
 #btn{
-	position:absolute;
 	float:right;
-	right:150px;
-	top:350px;
-	z-index:1;
+	margin-right: -300px;
+    margin-top: 270px;
+
 	}
 #button{
 	width:318px;
