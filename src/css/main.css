@@ -109,6 +109,16 @@ img{
 	border-style : solid;
 	background-color:yellow;
 }
+#quote{
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:600;
+	float:middle;
+}
+
+#img1{background-image:url("")}
+#img2{background-image:url("")}
+#img3{background-image:url("")}
 
 .box{
 	width:318px;
